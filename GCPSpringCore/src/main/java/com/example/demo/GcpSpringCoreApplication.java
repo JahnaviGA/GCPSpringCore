@@ -19,6 +19,8 @@ public class GcpSpringCoreApplication {
 		//tyreObj.display();
 		Vehicle obj = (Vehicle) context.getBean("car");
 		obj.drive();
+		
+	    System.out.println("welcome to spring");
 	}
 
 }
