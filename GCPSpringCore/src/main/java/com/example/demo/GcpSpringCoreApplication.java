@@ -20,7 +20,7 @@ public class GcpSpringCoreApplication {
 		Vehicle obj = (Vehicle) context.getBean("car");
 		obj.drive();
 		
-	    System.out.println("welcome to spring");
+	    System.out.println("welcome to my training");
 	}
 
 }
